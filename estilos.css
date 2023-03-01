@@ -1,14 +1,11 @@
-.card-group{
-    scale: 0.85;
-    position: relative;
-    bottom: 50px;
-    
-    
-}
 
+.card-group{
+    margin: 90px;
+ 
+}
 .card{
-    border: solid 1px;
-    margin: 120px;
+
+   margin: 90px;
     width: 90vh;
     -webkit-box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
