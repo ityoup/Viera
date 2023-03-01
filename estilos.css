@@ -1,0 +1,43 @@
+.card-group{
+    scale: 0.85;
+    position: relative;
+    bottom: 50px;
+    
+    
+}
+
+.card{
+    border: solid 1px;
+    margin: 120px;
+    width: 90vh;
+    -webkit-box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
+box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
+    
+}
+
+.card-body{
+
+ height: 40vh;
+
+}
+
+.boton{
+    scale: 1.3;
+    position: relative;
+    left: 150px;
+    width: 120px;
+    height: 50px;
+    top: 90px;
+    border: 0;
+    border-radius: 10px;
+    --webkit-box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 21px -14px rgba(0,0,0,0.75);
+    
+}
+
+.boton:hover{
+    background-color: rgba(128, 128, 128, 0.562);
+    transition: 0.3s;
+}
