@@ -16,7 +16,7 @@
               <div class="card-body">
                 <h5 class="card-title">iPhone 14 Pro Max</h5>
                 <p style="font-size: 17px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, magni, illo at soluta odit, dicta autem aspernatur perspiciatis neque doloribus dolores consectetur culpa quibusdam excepturi libero voluptates expedita esse deserunt.</p>
-                <button id="btn1" class="boton">Comprar</button>
+                <button onclick="changeText()" id="btn1" class="boton">Comprar</button>
                 
                
             </div>
@@ -26,7 +26,7 @@
               <div class="card-body">
                 <h5 class="card-title">Computadora Dell</h5>
                 <p style="font-size: 17px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dignissimos temporibus officia quas eum aut accusantium dolorem veniam ratione, reiciendis cumque totam alias nemo eaque? A omnis aspernatur porro totam.</p>
-                <button class="boton">Comprar</button>  
+                <button id="btn2" class="boton">Comprar</button>  
                
                 
             </div>
@@ -36,7 +36,7 @@
               <div class="card-body">
                 <h5 class="card-title">Audifonos</h5>
                 <p style="font-size: 17px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur architecto temporibus expedita quasi doloribus assumenda, inventore porro perspiciatis laboriosam veniam a qui, ipsum adipisci tempora maxime cupiditate suscipit ducimus? Porro?</p>
-                <button class="boton">Comprar</button> 
+                <button id="btn3" class="boton">Comprar</button> 
                
                 
             </div>
@@ -44,6 +44,13 @@
           </div>
     </div>
     <script src="main.js">
+        function changeText () {
+  if (this.innerText == "C") { // check if text inside is "More"
+    this.innerText == "Less";    // If so, change to "Less"
+  } else {
+    this.innerText == "More";
+  }
+}
     </script>
 </body>
 </html>
